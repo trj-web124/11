@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .wechat {
+        position: absolute;
+        left: 50%;
+        top: 10px;
+    }
+
+    .col-3 li {
+        width: 100%;
+        float: left;
+    }
+
+    .col-a li {
+        width: 50%
+    }
+
+    .col-b img {
+        width: 100%
+    }
+}
+
+@media only screen and (min-width: 1183px) {
+    .col-3 li {
+        width: 50%;
+        float: left;
+    }
+
+    .col-a li {
+        width: 25%
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .col-3 li {
+        width: 100%;
+        float: left;
+    }
+
+    .col-a li {
+        width: 50%
+    }
+
+    .col-b img {
+        width: 100%
+    }
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.eot');
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+    url('iconfont.woff') format('woff'),
+    url('iconfont.ttf') format('truetype'),
+    url('iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+    display: block
+}
+
+html {
+    font-size: 12px;
+    color: #686868;
+}
+
+.navbar {
+    background-color: #148CCA;
+    font-weight: 700;
+}
+
+.container {
+    width: 90%
+}
+
+#box a {
+    color: #fff;
+}
+
+#navrt a {
+    color: #fff;
+}
+
+/*neirong*/
+.row {
+    margin-top: 2em
+}
+
+.col-1 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.tbu {
+    margin-top: 3em;
+}
+
+.tdw {
+    margin-left: 6em;
+    margin-top: -1.5em
+}
+
+.tde {
+    margin-left: 5.6em;
+    margin-top: -1.5em
+}
+
+.col-1 .sae {
+    font-size: 2em;
+    color: #2AAAEC;
+    margin-top: 0.5em;
+}
+
+#shuju {
+    border-bottom: 3px solid #CCCCCC
+}
+
+.col-3 ul {
+    margin-left: 1.5em
+}
+
+.col-4 {
+    width: 5em;
+    height: 2em;
+    background: green;
+    border-radius: 8%;
+    line-height: 2em;
+    text-align: center;
+    margin-top: 2em
+}
+
+.col-4 a {
+    color: white
+}
+
+.img1 img {
+    width: 100%
+}
+
+.col-a {
+    color: #6A6868
+}
+
+.col-a h1 {
+    color: #686868;
+    font-weight: 600
+}
+
+.col-a li {
+    float: left;
+    text-align: center;
+    list-style: none;
+    padding: 0 1.5em;
+}
+
+.col-a ul {
+    width: 100%
+}
+
+.col-a li img {
+    margin: 0 auto;
+}
+
+.col-b {
+    width: 100%
+}
+
+.col-b img {
+    float: left;
+    padding-right: 1em;
+}
+
+.col-b p {
+    padding-top: 8em;
+    color: #686868;
+}
+
+.col-c li a {
+    font-size: 1em;
+}
+
+.col-c li {
+    list-style: none
+}
+
+#chunhua {
+    margin-top: 2em;
+    width: 100%;
+    height: 30em;
+    background: url("../img/chunhua.jpeg") no-repeat;
+    background-size: cover
+}
+
+.media {
+    color: #ffffff;
+    margin-left: 4em
+}
+
+.topcp {
+    margin-top: -2em;
+}
+
+.tusize img {
+    width: 15em;
+    height: 20em;
+}
+
+#taqiao {
+    margin-top: 2em;
+    width: 100%;
+    height: 30em;
+    background: url("../img/taqiao-010.jpg") no-repeat;
+    background-size: cover
+}
+
+.par {
+    margin-left: 5em;
+    color: #ffffff
+}
+
+.font {
+    font-size: 1.5em;
+    color: #ffffff;
+    text-align: left;
+    margin-top: -1em;
+}
+
+.zixun {
+    margin-left: 17.9em;
+    margin-top: -1.95em
+}
+
+.zixun2 {
+    margin-top: -2em;
+    margin-left: 33em
+}
+
+.footer {
+    background: #f2f2f2;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
